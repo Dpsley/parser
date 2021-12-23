@@ -1,13 +1,13 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Radioactiveman
- * Date: 27.07.2018
- * Time: 17:37
+ * User: Dudarev
+ * Date: 23.12.2021
+ * Time: 12:30
  */
 
 namespace Parser;
-require_once 'class/Log_Parser.php';
+require_once 'class/Log_Parse.php';
 $argv = $_SERVER['argv'];
 
 if (isset($argv[1]))//Есть наименование файла
